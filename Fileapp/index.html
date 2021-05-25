@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>subir archivo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+</head>
+<body>
+
+    <div class="py-5 text-center">
+      <img class="d-block mx-auto mb-4" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAMAAAD04JH5AAAAclBMVEX///8JgWxPvp+j0MgIgGs5q4/i8O4mkH0il34PhnBCs5YvoohHt5n8/v1ttKgThnLs9fMVi3XQ5+Pz+fjA39paq5w6mokdi3i529WCv7QUinSfzsWx19Dc7eowlYM2qI1osaSNxbtQppdSp5gonIN6u6/pm1ZgAAADIElEQVR4nO2abXeiMBSESxV5EQW0hvpSULf+/7+47e5KgkJC7tyGs+dkvtN5RO9kLuXlxcvLy8vLy+u/0KpYWGu74nOf7URkq1rsTgWL/3Ym8oCkXJwY7kKxJtr/Qbht4c9/ptt/a40SXBIMID9i/psI8w+C+gPxX91Q/yC4IACFwAEEMoybSvlLcxvJy6oNAPCujGBSxuNVyuvyNwBgJv9Omb5aKFtK8HcWgIOV/xdBOee9A0s7fwUA+g1IgNAW4HAHiBaTAKRtggokjOkAYXvlDjkR6QByCqAkpAPEbRSdJgaAppAOIKcwgk5DOsDhfmENFUMygJzCK1SJyAByCveIPx1ATuFsGgCmISADMB1FRoAs7VcYt9fVyFFkAAjLQzKg9jLsKNIDNIlS/Aa1hvx1APLA1wrcSzQAzRj7IEcKoR7gc9QNAIcAB4D6mB4gHbW1gkOgnYJY49sK6mMGgCzuvwfqWob1MQPA17fQLPukgkF9zAgwJHkU5uAQEAGUpQTqYwwA0LMBOoCc0F/oIyoaAFcfIwNw9TEyAFcfwwEqdAhoALIQYksJHaDdirClhAwgpxDsY1QA2ZXAPkYFaKsK2seoADHTUkIGKFmej9EBlKMIHgISgByCM/4fIwoA0/OxUQBZj5o2huA+ZgJI4/LwrPYKvI8ZAMJyrt9NGIZAu5iUptUI3Qn0AJnRnyEHNQCZeS+C+6AOYIR/xPATHAb4NPtzfAGDAEuN818JuA3qABrDZp7XF4YJHAYIVf/qun7Q7fjGZd8PkKpPp66b7epRbO79AJ0AEnDvtgboBFDNMmpWAJ0AiJh+6hYAHf+K4xUVSwA1gPLjz/s/AqgBlFwc+D8AdAIIf0HHGqATQGeet6TGAzSvYSeA+MJuJEASK23v5wPoGSBQC9DPB1APgCIHAaQFcBFAOgAnAaQBcBNAGgD4/TwQYOcmgAYBXAXQEICzABoAcBdA/QBMywYZoJq5HMBnAKcB1AewdxoA/3SSHcRtAN0l3yl1HEB3bXcTBVCrDzFNAEkt9iIS+6k+/7dWxaKYYP68vLy8vLy83Ok3PK5AQVlfk/4AAAAASUVORK5CYII=" alt="" width="72" height="57">
+      <h2>Metadata File App:</h2>
+      <p class="lead">Suba sus archivos y la aplicacion de devolvera sus meta datos en formato Json:</p>
+    </div >
+
+    <form enctype="multipart/form-data" action="http://localhost:8080/api/file/upload" method="post" class="card p-4" >
+        <div class="input-group text-center justify-content.center">
+        <h2 class="form-label">Elige un archivo:</h2>
+        <input type="file" name="file" class="btn" >
+        <input type="submit" class="btn btn-primary">
+    </div>
+    </form>
+</div>  
+
+    
+</body>
+</html>

@@ -1,0 +1,4 @@
+1-abrir la consola de windows
+2 acceder al directorio Fileapp desde la consola
+3-Ejecular el comando Java -jar FileMetaData-0.0.1-SNAPSHOT.jar
+4-desde el index.html puedes usar la aplicación
